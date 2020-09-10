@@ -1,0 +1,15 @@
+---
+- name: Converge
+  hosts: all
+  gather_facts: false
+  vars:
+    users:
+      - name: foo
+        id: 1042
+      - name: bar
+        id: 1043
+        home: "/opt/baz"
+  tasks:
+    - name: "Include user"
+      include_role:
+        name: "user"

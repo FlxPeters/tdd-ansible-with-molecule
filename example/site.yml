@@ -1,0 +1,22 @@
+---
+- name: Setup Centos Host
+  become: true
+  hosts: all
+  gather_facts: false
+  roles:
+    - name: user
+      vars:
+        users:
+          - name: demo
+  tasks:
+    - name: Create a secrets directory
+      file:
+        state: directory
+        path: /opt/secrets/
+        mode: "0755"
+    - name: Add a message onyl for user demo
+      copy:
+        dest: /opt/secrets/message.txt
+        content: "Secure"
+        owner: demo
+        mode: "0600"

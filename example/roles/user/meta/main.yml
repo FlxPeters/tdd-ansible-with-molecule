@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Felix Peters
+  description: A demo user role
+  company: E. Breuninger Gmbh & Co
+  #license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: RHEL
+      versions: all
+  galaxy_tags: []

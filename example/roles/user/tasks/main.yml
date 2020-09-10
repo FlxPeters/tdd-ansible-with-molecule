@@ -1,0 +1,10 @@
+---
+- name: Create user
+  user:
+    name: "{{ item.name | mandatory }}"
+    uid: "{{ item.id | default(omit) }}"
+    home: "{{ item.home | default(omit) }}"
+  loop: "{{ users }}"
+
+- debug:
+    msg: foo
