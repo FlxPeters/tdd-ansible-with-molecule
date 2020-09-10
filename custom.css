@@ -1,0 +1,22 @@
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal blockquote {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 50px;
+}
+
+.boxed h2 {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.blured .slide-background-content {
+  -webkit-filter: blur(4px) saturate(0.5) brightness(0.8);
+  -moz-filter: blur(4px) saturate(0.7) brightness(0.9);
+  -o-filter: blur(4px) saturate(0.7) brightness(0.9);
+  -ms-filter: blur(4px) saturate(0.7) brightness(0.9);
+  filter: blur(4px) saturate(0.7) brightness(0.9);
+  opacity: 0.1;
+}
