@@ -232,9 +232,8 @@ Converge: Apply the role via an Ansible playbook
 Run the playbook again to ensure idempotence
 Verify: Run one or more verifiers
 Cleanup</p></div></aside></div></section></section>
-<section id="_demo"><h2>Demo</h2><div class="slide-content"><div class="paragraph"><p><strong>Ziel:</strong> Testgetriebene Entwicklung einer Ansible Rolle die:</p></div>
-<div class="olist arabic"><ol class="arabic"><li><p>Nginx auf CentOS 7 installiert</p></li><li><p>Eine HTML Seite als Default in Nginx platziert</p></li><li><p>User ausrollt</p></li><li><p>Key zuweist
-3 Gruppe zuweis</p></li><li><p>Suoders</p></li></ol></div></div></section>
+<section id="_demo"><h2>Demo</h2><div class="slide-content"><div class="paragraph"><p><strong>Ziel:</strong> Testgetriebene Entwicklung eines Ansible Playbooks:</p></div>
+<div class="olist arabic"><ol class="arabic"><li><p>Nutzt eine Rolle zum erstellen von Nutzern auf Centos</p></li><li><p>Erstellt ein Verzeichnis und einen Nutzer</p></li><li><p>Legt eine Datei nur für diesen Nutzer ab</p></li></ol></div></div></section>
 <section id="_zusammenfassung"><h2>Zusammenfassung</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Testen gibt <strong>Sicherheit</strong> und verbessert den Code</p></li><li class="fragment"><p>Testen schafft <strong>Verständnis</strong> für die Ziele des Codes</p></li><li class="fragment"><p>Sicherheit und Verständnis ermöglichen <strong>Veränderung</strong></p></li></ul></div></div></section>
 <section id="_bonus_slides"><div class="slide-content"><div class="dlist"><dl><dt class="hdlist1"><a href="https://github.com/gruntwork-io/terratest">Terratest</a></dt><dd><p>Testgetriebene Entwicklung für Packer, Terraform, Docker</p></dd><dt class="hdlist1"><a href="https://kitchen.ci/">Kitchen-CI</a></dt><dd><p>Testgetriebene Entwicklung für Checf</p></dd><dt class="hdlist1"><a href="https://learning.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></dt><dd><p>A Novel about IT, DevOps, and Helping Your Business Win</p></dd></dl></div></div></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js@3.9.2/js/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;

@@ -83,8 +83,6 @@ image::https://media3.giphy.com/media/33iqmp5ATXT5m/giphy.gif[canvas]
 
 image::https://i.pinimg.com/originals/7d/97/f2/7d97f2f27b6667022cd4ef0daf4de1ac.jpg[canvas,size=contain]
 
-
-
 [.notes]
 --
 * Teile-und-herrsche-Verfahren
@@ -108,7 +106,6 @@ Testing:: Einheiten werden isoliert und zusammen getestet
 == Testing
 
 > Code without tests is broken by design.
-
 
 [.notes]
 --
@@ -301,15 +298,11 @@ Cleanup
 
 == Demo
 
-*Ziel:* Testgetriebene Entwicklung einer Ansible Rolle die:
+*Ziel:* Testgetriebene Entwicklung eines Ansible Playbooks:
 
-1. Nginx auf CentOS 7 installiert
-2. Eine HTML Seite als Default in Nginx platziert
-
-1. User ausrollt
-2. Key zuweist
-3 Gruppe zuweis
-4. Suoders
+1. Nutzt eine Rolle zum erstellen von Nutzern auf Centos
+2. Erstellt ein Verzeichnis und einen Nutzer
+3. Legt eine Datei nur für diesen Nutzer ab
 
 == Zusammenfassung
 
