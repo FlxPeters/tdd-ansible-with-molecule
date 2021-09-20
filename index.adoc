@@ -329,6 +329,14 @@ Cleanup
 * Testen schafft *Verständnis* für die Ziele des Codes
 * Sicherheit und Verständnis ermöglichen *Veränderung* 
 
+
+[.boxed]
+== We are hiring
+
+image::https://www.e-breuninger.de/typo3conf/ext/site_career/Resources/Public/Assets/Img/header/Breunibaer_Header_3.jpg[canvas,size=contain]
+
+https://team.breuninger.de[team.breuninger.de]
+
 [%notitle]
 == Bonus Slides
 

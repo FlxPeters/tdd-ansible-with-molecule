@@ -20,3 +20,12 @@
   filter: blur(4px) saturate(0.7) brightness(0.9);
   opacity: 0.1;
 }
+
+
+#_we_are_hiring {
+  top: -150px !important
+}
+
+.reveal a {
+  color: #a6202c
+}
