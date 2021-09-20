@@ -5,5 +5,5 @@ asciidoctorRevealjs.register()
 
 // Convert the document 'index.adoc' using the reveal.js converter
 var attributes = {'revealjsdir': 'reveal.js'};
-var options = { safe: 'safe', backend: 'revealjs',attributes: attributes, to_dir: "dist" }
+var options = { safe: 'safe', backend: 'revealjs',attributes: attributes, to_dir: "docs" }
 asciidoctor.convertFile('index.adoc', options)
