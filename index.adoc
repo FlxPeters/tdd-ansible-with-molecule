@@ -9,16 +9,17 @@
 Testgetriebene Entwicklung + 
 mit Ansible und Molecule
 
-== $ whoami
+== !
 
 *Felix Peters*
 
-DevOps & Operations Engineer +
-E. Breuninger GmbH & Co - Stuttgart
+DevOps +
+Engineering Lead - Operations Core Tooling 
+
 
 image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Breuninger-Logo.svg/2000px-Breuninger-Logo.svg.png[width=400px]
 
-https://github.com/FlxPeters[Github/FlxPeters] · https://flxpeters.de[flxpeters.de]
+https://github.com/FlxPeters[Github/FlxPeters] · https://www.flxpeters.de/[www.flxpeters.de/]
 
 [.boxed]
 == Infrastrukture im Cloud-Zeitalter
@@ -44,13 +45,21 @@ image::img/ref-arch-full.png[canvas,size=contain]
 * 👎 *Komplex*
 --
 
-
 [.notes]
 --
 * Clouds und Container ermöglichen uns Infrastruktur als Code zu schreiben
 * Ops kommt deshalb nicht mehr ohne Dev aus. 
 * Ansible, Terraform, Puppet, Chef etc. 
 --
+
+
+=== Komplexität
+
+[%step]
+* Erhöht die Einstiegshürde in ein Projekt
+* Schafft Kopfmonopole und Silowissen
+* *Erzeugt Angst vor Veränderung und verhindert Fortschritt*
+
 
 [.notes]
 --
@@ -61,13 +70,6 @@ image::img/ref-arch-full.png[canvas,size=contain]
 Das führt zu Angst vor Veränderung
 --
 
-=== Komplexität
-
-[%step]
-* Erhöht die Einstiegshürde in ein Projekt
-* Schafft Kopfmonopole und Silowissen
-* *Erzeugt Angst vor Veränderung und verhindert Fortschritt*
-
 === !
 
 image::https://media3.giphy.com/media/33iqmp5ATXT5m/giphy.gif[canvas]
@@ -77,7 +79,14 @@ image::https://media3.giphy.com/media/33iqmp5ATXT5m/giphy.gif[canvas]
  Anger leads to hate. +
  Hate leads to suffering"
 
-=== Komplexität ist der Feind
+=== Komplexität ist der Feind!
+
+[.notes]
+--
+* Wir haben hier eine Lösung
+* Teile und hersche
+--
+
 
 [.boxed]
 === Divide and conquer
@@ -118,7 +127,7 @@ Testing:: Einheiten werden isoliert und zusammen getestet
 [%step]
 * beweisen die Funktion und Korrektheit von Code
 * verbessern Code-Qualität und Struktur
-* formulieren die Aufgabe und Zweck
+* formulieren die Aufgabe und Zweck von Code
 * ermöglichen das Verändern von Code
 * *Tests geben Sicherheit*
 
@@ -185,6 +194,14 @@ https://www.ansible.com/[ansible.com]
 === !
 
 image::https://www.rackspace.com/sites/default/files/article-images/blog_254.jpg[canvas, size=auto]
+
+=== !
+
+Auch das wird schnell unübersichtlich. Deshalb:
+
+* Zerlegen in wiederverwendbare Teilaspekte
+* Einzelteile testen
+* Integration der Einzelteile testen
 
 == !
 

@@ -1,0 +1,27 @@
+{
+  "name": "tdd-ansible-with-molecule",
+  "version": "1.0.0",
+  "description": "Slides zum Talk \"Veränderung ermöglichen\"",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlxPeters/tdd-ansible-with-molecule.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlxPeters/tdd-ansible-with-molecule/issues"
+  },
+  "homepage": "https://github.com/FlxPeters/tdd-ansible-with-molecule#readme",
+  "dependencies": {
+    "@asciidoctor/reveal.js": "^5.0.0-rc.1",
+    "asciidoctor": "^2.2.5"
+  }
+}
