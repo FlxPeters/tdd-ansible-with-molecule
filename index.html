@@ -143,7 +143,8 @@ td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 link.rel = 'stylesheet';
 link.type = 'text/css';
 link.href = window.location.search.match( /print-pdf/gi ) ? "https://cdn.jsdelivr.net/npm/reveal.js@3.9.2/css/print/pdf.css" : "https://cdn.jsdelivr.net/npm/reveal.js@3.9.2/css/print/paper.css";
-document.getElementsByTagName( 'head' )[0].appendChild( link );</script><link rel="stylesheet" href="custom.css"></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Veränderung ermöglichen</h1><div class="preamble"><div class="paragraph"><p>Testgetriebene Entwicklung mit Ansible und Molecule</p></div></div></section>
+document.getElementsByTagName( 'head' )[0].appendChild( link );</script><link rel="stylesheet" href="custom.css"></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Veränderung ermöglichen</h1><div class="preamble"><div class="paragraph"><p>Testgetriebene Entwicklung<br>
+mit Ansible und Molecule</p></div></div></section>
 <section id="_whoami"><h2>$ whoami</h2><div class="slide-content"><div class="paragraph"><p><strong>Felix Peters</strong></p></div>
 <div class="paragraph"><p>DevOps &amp; Operations Engineer<br>
 E. Breuninger GmbH &amp; Co - Stuttgart</p></div>
@@ -154,7 +155,7 @@ E. Breuninger GmbH &amp; Co - Stuttgart</p></div>
 <div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>👎 Verteilt<br></p></li><li><p>👎 Unterschiedlich<br></p></li><li><p>👎 <strong>Komplex</strong></p></li></ul></div></div></div>
 <aside class="notes"><div class="ulist"><ul><li><p>Clouds und Container ermöglichen uns Infrastruktur als Code zu schreiben</p></li><li><p>Ops kommt deshalb nicht mehr ohne Dev aus.</p></li><li><p>Ansible, Terraform, Puppet, Chef etc.</p></li></ul></div></aside>
 <aside class="notes"><div class="ulist"><ul><li><p>Komplexe Zusammenhänge</p></li><li><p>Unterschiedliche Technologien</p></li><li><p>Viele bewegliche Teile mit unbekannten Seiteneffekten</p></li></ul></div>
-<div class="paragraph"><p>Das führt zu Angst vor Veränderung</p></div></aside></div></section><section id="_komplexität"><h2>Komplexität</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Erhöht die Einstiegshürde in ein Projekt</p></li><li class="fragment"><p>Schafft Kopfmonopole und Silowissen</p></li><li class="fragment"><p><strong>Erzeugt Angst vor Veränderung</strong></p></li></ul></div></div></section><section data-background-image="https://media3.giphy.com/media/33iqmp5ATXT5m/giphy.gif"><div class="slide-content">
+<div class="paragraph"><p>Das führt zu Angst vor Veränderung</p></div></aside></div></section><section id="_komplexität"><h2>Komplexität</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Erhöht die Einstiegshürde in ein Projekt</p></li><li class="fragment"><p>Schafft Kopfmonopole und Silowissen</p></li><li class="fragment"><p><strong>Erzeugt Angst vor Veränderung und verhindert Fortschritt</strong></p></li></ul></div></div></section><section data-background-image="https://media3.giphy.com/media/33iqmp5ATXT5m/giphy.gif"><div class="slide-content">
 <div class="quoteblock"><blockquote><div class="paragraph"><p>"Fear is the path to the dark side.<br>
  Fear leads to anger.<br>
  Anger leads to hate.<br>

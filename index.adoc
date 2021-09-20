@@ -6,7 +6,8 @@
 :revealjs_width: "90%"
 :customcss: custom.css
 
-Testgetriebene Entwicklung mit Ansible und Molecule
+Testgetriebene Entwicklung + 
+mit Ansible und Molecule
 
 == $ whoami
 
@@ -65,7 +66,7 @@ Das führt zu Angst vor Veränderung
 [%step]
 * Erhöht die Einstiegshürde in ein Projekt
 * Schafft Kopfmonopole und Silowissen
-* *Erzeugt Angst vor Veränderung*
+* *Erzeugt Angst vor Veränderung und verhindert Fortschritt*
 
 === !
 
