@@ -22,12 +22,12 @@ image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Breuninger-Logo
 https://github.com/FlxPeters[Github/FlxPeters] · https://www.flxpeters.de/[www.flxpeters.de/]
 
 [.boxed]
-== Infrastrukture im Cloud-Zeitalter
+== Infrastruktur im Cloud-Zeitalter
 
 image::img/ref-arch-full.png[canvas,size=contain]
 
 [role="columns blured"]
-=== Infrastrukture im Cloud-Zeitalter
+=== Infrastruktur im Cloud-Zeitalter
 
 image::img/ref-arch-full.png[canvas,size=contain]
 
