@@ -8,7 +8,7 @@ def test_user_foo(host):
     assert user.uid == 1042
 
 
-def test_user_foo(host):
+def test_user_bar(host):
     """Validate a user bar exists and has the correct values"""
 
     user = host.user("bar")
